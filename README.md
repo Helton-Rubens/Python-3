@@ -1,2 +1,2 @@
 # Python 3
- repositório de exercícios feitos em Python 3
+Esse é um repositório de exercícios(e algumas outras brincadeirinhas) feitos em Python 3
