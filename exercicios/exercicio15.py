@@ -1,0 +1,6 @@
+dias = int(input('Quantos dias de aluguel? '))
+km = int(input('Quantos Km rodados? '))
+aluguel = (dias * 60) + (km * 0.15)
+print('='*13)
+print ('O preço do aluguel é: R${:.2f}'.format(aluguel))
+print('='*13)

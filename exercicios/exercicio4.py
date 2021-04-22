@@ -1,0 +1,6 @@
+algo = input('\033[34mDigite algo: \033[m')
+print ('Tem espaços? \033[35m{}\033[m'.format(algo.isupper()))
+print('É um número? \033[35m{}\033[m'.format(algo.isnumeric()))
+print('É alfanumérico? \033[35m{}\033[m'.format(algo.isalnum()))
+print('Tem apenas letras? \033[35m{}\033[m'.format(algo.isalpha()))
+print('Tem espaço? {}{}{}'.format('\033[35m', algo.isspace(), '\033[m'))

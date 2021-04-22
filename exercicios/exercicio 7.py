@@ -1,0 +1,5 @@
+nota1 = float(input('\033[7;30mDigite a nota do aluno no primeiro bimestre:\033[m '))
+nota2 = float(input('\033[7;30mDigite a nota do aluno no segundo bimestre:\033[m '))
+nota3 = float(input('\033[7;30mDigite a nota do aluno no terceiro bimestre:\033[m '))
+nota4 = float(input('\033[7;30mDigite a nota do aluno no quarto bimestre:\033[m '))
+print('\033[7;30mA calculo da média de notas do aluno dutante o ano letivo é:\033[m \033[7;30;47m{:.1f}\033[m'.format((nota1+nota2+nota3+nota4)/4))
