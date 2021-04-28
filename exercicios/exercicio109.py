@@ -1,8 +1,8 @@
-from ModulosdoEx import moeda
+from ex109 import moeda
 
-p = int(input('Digite o preço: '))
-t = int(input('Digite a taxa: '))
-print(f'O aumento do valor em {t}% é {moeda.moeda(moeda.aumentar(p, t))}')
-print(f'O desconto em {t}% é {moeda.moeda(moeda.diminuir(p, t))}')
-print(f'O dobro de {moeda.moeda(p)} é {moeda.moeda(moeda.dobro(p))}.')
-print(f'A metade de {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p))}')
+p = float(input('Digite o preço: R$'))
+t = float(input('Digite a taxa: R$'))
+print(f'O aumento do valor em {t}% é {moeda.aumentar(p, t, formato=True)}')
+print(f'O desconto em {t}% é {moeda.moeda(moeda.diminuir(p, t, formato=True))}')
+print(f'O dobro de {moeda.moeda(p)} é {moeda.moeda(moeda.dobro(p, formato=True))}.')
+print(f'A metade de {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p, formato=True))}')
